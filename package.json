@@ -19,7 +19,9 @@
     "@hapi/joi": "^17.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongodb": "^3.6.2"
+    "mongodb": "^3.6.2",
+    "now": "^20.1.0",
+    "vercel": "^20.1.0"
   },
   "devDependencies": {
     "eslint": "^7.9.0",
@@ -45,6 +47,11 @@
   },
   "nyc": {
     "all": true,
-    "include": ["routes", "services", "lib", "utils"]
+    "include": [
+      "routes",
+      "services",
+      "lib",
+      "utils"
+    ]
   }
 }
